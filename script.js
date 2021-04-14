@@ -65,7 +65,7 @@ btnHold.addEventListener('click', function () {
   currentScore = 0;
   currentScorePlayer[playerActive].textContent = currentScore;
 
-  if (totalScore[playerActive] >= 20) {
+  if (totalScore[playerActive] >= 100) {
     console.log(`Player ${playerActive} wins!!`);
     player[playerActive].classList.add('player--winner');
     if (!playerActive) namePlayer[playerActive].textContent = `Priya Wins`;
